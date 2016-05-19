@@ -1,13 +1,13 @@
-package com.mx.flisol.dao;
+package com.mx.crudjdbc.dao;
 
-import com.mx.flisol.vo.Usuario;
+import com.mx.crudjdbc.vo.Usuario;
 import java.sql.ResultSet;
 
 /**
  *
  * @author bl4ck0is1s
  */
-public interface UsuarioDao extends FlisolDao<Usuario> {
+public interface UsuarioDao extends CrudDao<Usuario> {
     
     public Usuario saveUsuario(Usuario usuario);
     

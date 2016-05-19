@@ -4,15 +4,15 @@
  * and open the template in the editor.
  */
 
-package com.mx.flisol.dao;
+package com.mx.crudjdbc.dao;
 
-import com.mx.flisol.vo.InterfaceObject;
+import com.mx.crudjdbc.vo.InterfaceObject;
 
 /**
  *
  * @author Julio
  * @param <T>
  */
-public interface FlisolDao<T extends InterfaceObject<T>>  {
+public interface CrudDao<T extends InterfaceObject<T>>  {
     
 }

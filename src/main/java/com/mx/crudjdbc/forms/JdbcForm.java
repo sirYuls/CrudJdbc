@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mx.flisol.forms;
+package com.mx.crudjdbc.forms;
 
-import com.mx.flisol.config.ConnectionDataBase;
-import com.mx.flisol.dao.impl.UsuarioDaoImpl;
-import com.mx.flisol.vo.Usuario;
+import com.mx.crudjdbc.config.ConnectionDataBase;
+import com.mx.crudjdbc.dao.impl.UsuarioDaoImpl;
+import com.mx.crudjdbc.vo.Usuario;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -19,12 +19,12 @@ import javax.swing.table.DefaultTableModel;
  *
  * @author bl4ck0is1s
  */
-public class FlisolForm extends javax.swing.JFrame {
+public class JdbcForm extends javax.swing.JFrame {
 
     /**
      * Creates new form FlisolForm
      */
-    public FlisolForm() {
+    public JdbcForm() {
         initComponents();
         loadTableUsuario();
     }
@@ -369,20 +369,20 @@ public class FlisolForm extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(FlisolForm.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(JdbcForm.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(FlisolForm.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(JdbcForm.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(FlisolForm.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(JdbcForm.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(FlisolForm.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(JdbcForm.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new FlisolForm().setVisible(true);
+                new JdbcForm().setVisible(true);
             }
         });
     }

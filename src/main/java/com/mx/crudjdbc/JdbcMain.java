@@ -4,12 +4,16 @@
  * and open the template in the editor.
  */
 
-package com.mx.flisol.util;
+package com.mx.crudjdbc;
+
+import com.mx.crudjdbc.forms.JdbcForm;
 
 /**
  *
  * @author bl4ck0is1s
  */
-public class Utils {
-    
+public class JdbcMain {
+    public static void main(String []a){
+        new JdbcForm().setVisible(true);
+    }
 }

@@ -1,8 +1,8 @@
-package com.mx.flisol.dao.impl;
+package com.mx.crudjdbc.dao.impl;
 
-import com.mx.flisol.config.ConnectionDataBase;
-import com.mx.flisol.dao.UsuarioDao;
-import com.mx.flisol.vo.Usuario;
+import com.mx.crudjdbc.config.ConnectionDataBase;
+import com.mx.crudjdbc.dao.UsuarioDao;
+import com.mx.crudjdbc.vo.Usuario;
 import java.awt.HeadlessException;
 import java.sql.Connection;
 import java.sql.PreparedStatement;

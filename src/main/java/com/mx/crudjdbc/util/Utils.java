@@ -4,16 +4,12 @@
  * and open the template in the editor.
  */
 
-package com.mx.flisol;
-
-import com.mx.flisol.forms.FlisolForm;
+package com.mx.crudjdbc.util;
 
 /**
  *
  * @author bl4ck0is1s
  */
-public class FlisolMain {
-    public static void main(String []a){
-        new FlisolForm().setVisible(true);
-    }
+public class Utils {
+    
 }

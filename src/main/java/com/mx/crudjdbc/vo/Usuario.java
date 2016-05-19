@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package com.mx.flisol.vo;
+package com.mx.crudjdbc.vo;
 
 /**
  *

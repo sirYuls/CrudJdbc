@@ -1,4 +1,4 @@
-package com.mx.flisol.config;
+package com.mx.crudjdbc.config;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

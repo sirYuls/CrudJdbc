@@ -1,4 +1,4 @@
-package com.mx.flisol.vo;
+package com.mx.crudjdbc.vo;
 
 import java.lang.reflect.ParameterizedType;
 
