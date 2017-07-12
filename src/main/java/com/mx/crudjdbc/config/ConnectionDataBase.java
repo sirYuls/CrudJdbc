@@ -19,7 +19,7 @@ public class ConnectionDataBase {
            conexion =DriverManager.getConnection("jdbc:mysql://localhost/flisol","root","mainware");
            System.out.println("conexion establecida");
        } catch (ClassNotFoundException | SQLException e) {
-           System.out.println("error de conexion");
+           System.out.println("error de conexion: se hizo cambio en mensaje");
            JOptionPane.showMessageDialog(null, "error de conexion "+e);
        }
 
